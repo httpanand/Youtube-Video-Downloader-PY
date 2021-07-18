@@ -1,2 +1,5 @@
 # Youtube-video-downloader
-Simple Youtube Video downloader with python . 
+##Installing Modules 
+```
+py -m pip install pytube
+```
