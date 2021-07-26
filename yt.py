@@ -1,6 +1,6 @@
 import pytube
 SAVE_PATH = "C:/" #change if you need
-link = "https://www.youtube.com/watch?v=3jr67TKuH20"
+link = input('Enter youtube URL')
 yt = pytube.YouTube(link)
 vdo = yt.streams.first()
 vdo.download(SAVE_PATH)
