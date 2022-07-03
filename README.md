@@ -1,6 +1,6 @@
 # Youtube-video-downloader
 ### Installing Modules 
 ```
-py -m pip install pytube
+pip install youtube_dl
 ```
 ```Use at your own risk```
